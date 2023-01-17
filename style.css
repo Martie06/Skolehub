@@ -50,6 +50,13 @@ body {
 .nord-button:hover {
     background-color: #A3BE8C;
     color: #2E3440;
+    transition: 0.25s ease-in-out;
+}
+
+#util-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 .navbar a {
